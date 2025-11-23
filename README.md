@@ -6,9 +6,9 @@ A fun weekend project to turn an **STM32F411CEU6 ("Black Pill")** into an **I²C
 > Special thanks to **@arturo182** and many people prior for reversing this keyboard. Details: [arturo182/BBQ10KBD](https://github.com/arturo182/BBQ10KBD)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_and_trackpad/main/docs/5.jpeg" alt="Demo" width="800" height="600">
-  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_and_trackpad/main/docs/4.jpeg" alt="Demo" width="800" height="450">
-  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_and_trackpad/main/docs/3.png" alt="Linux Driver Output" width="800" height="160">
+  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_trackpad/refs/heads/main/docs/5.jpeg" alt="Demo" width="800" height="600">
+  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_trackpad/refs/heads/main/docs/4.jpeg" alt="Demo" width="800" height="450">
+  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_trackpad/refs/heads/main/docs/3.png" alt="Linux Driver Output" width="800" height="160">
 </p>
 
 ---
@@ -29,7 +29,7 @@ A fun weekend project to turn an **STM32F411CEU6 ("Black Pill")** into an **I²C
 ## Hardware Connections for Demo
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_and_trackpad/main/docs/6.png" alt="Demo" width="800" height="400">
+  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_trackpad/refs/heads/main/docs/6.png" alt="Demo" width="800" height="400">
 </p>
 
 ### BBQ10 Keyboard → STM32F411CEU6 (Black Pill)
@@ -85,12 +85,12 @@ I2C SMBus protocol starts by writing 1 byte register data to the device address,
 
 A keypress input causes following example data to appear on I2C bus:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_and_trackpad/main/docs/7.png" alt="Demo" width="800" height="450">
+  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_trackpad/refs/heads/main/docs/7.png" alt="Demo" width="800" height="450">
 </p>
 
 A trackball move input causes following example data to appear on I2C bus:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_and_trackpad/main/docs/8.png" alt="Demo" width="800" height="450">
+  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_trackpad/refs/heads/main/docs/8.png" alt="Demo" width="800" height="450">
 </p>
 
 ### I2C SMBus Protocol Register Map
@@ -174,5 +174,5 @@ For testing, I integrated everything to Beagley-AI board that has TI J722S (Jaci
 Click the thumbnail to access video
 
 <a href="https://www.youtube.com/watch?v=PuqCsDF2vTg">
-  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_and_trackpad/main/docs/5.jpeg" style="width:100%; max-width:300px;">
+  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_trackpad/main/docs/5.jpeg" style="width:100%; max-width:300px;">
 </a>
