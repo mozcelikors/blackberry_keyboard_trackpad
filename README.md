@@ -173,6 +173,6 @@ For testing, I integrated everything to Beagley-AI board that has TI J722S (Jaci
 
 Click the thumbnail to access video
 
-<a href="https://www.youtube.com/watch?v=PuqCsDF2vTg">
-  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_trackpad/main/docs/5.jpeg" style="width:100%; max-width:300px;">
+<a target="_blank" href="https://www.youtube.com/watch?v=PuqCsDF2vTg">
+  <img src="https://raw.githubusercontent.com/mozcelikors/blackberry_keyboard_trackpad/main/docs/5.jpeg" style="width:300px; max-width:300px;">
 </a>
